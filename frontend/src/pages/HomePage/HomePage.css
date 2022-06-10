@@ -1,0 +1,34 @@
+.img-container {
+    width: 100%; height: 813px; background-color: black;
+    background-image: url(../../images/clipboard.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+.img-container > h1 {
+    font-size: 4rem; color:aliceblue; font-weight: bold;
+    position: absolute; left: 0; top: 0; width: 100%; height: 813px;
+    padding: 2em;
+    background-image: linear-gradient(to right,
+    rgb(36, 84, 124, .5)10%,
+    rgb(36, 84, 124, 0));
+    
+}
+
+body {
+    background-image: url(../../images/clipboard.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to right,
+    rgb(36, 84, 124, .5),
+    rgb(36, 84, 124, 0));
+  }
+
+label {
+    color: black
+}
